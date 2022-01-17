@@ -29,17 +29,3 @@ const listGifts = (str) => {
 }
 
 console.log(listGifts(carta));
-
-
-var array = [ 'bici', 'coche', 'balón', 'bici', 'coche', 'peluche' ];
-
-
-var counts = {};
-
-console.log(counts);
-
-array.forEach(function(x) { counts[x] = (counts[x] || 0)+1; });
-
-console.log(array);
-
-console.log(counts);
